@@ -3,3 +3,8 @@ spring:
   profiles: cloud
   
 message: littl old me
+
+eureka:
+  instance:
+    hostname: https://jl-company.cfapps.io
+	nonSecurePort: 80
