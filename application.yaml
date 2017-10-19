@@ -10,3 +10,6 @@ eureka:
   instance:
     hostname: ${vcap.application.uris[0]}
     nonSecurePort: 80
+  client:
+    serviceUrl:
+      defaultZone: https://nimda:nimda@jl-eureka.cfapps.io/eureka	
