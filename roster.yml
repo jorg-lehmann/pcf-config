@@ -1,5 +1,12 @@
 ---
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+---
+spring:
   profiles: cloud
   
 message: all others
