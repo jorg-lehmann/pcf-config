@@ -12,4 +12,4 @@ eureka:
     nonSecurePort: 80
   client:
     serviceUrl:
-      defaultZone: http://nimda:nimda@jl-eureka.cfapps.io/eureka	
+      defaultZone: http://nimda:nimda@eureka.local.pcfdev.io//eureka
