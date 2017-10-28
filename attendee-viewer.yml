@@ -1,7 +1,7 @@
 feign:
   hystrix:
     enabled: true
-	
+
 security:
   basic:
     enabled: false
